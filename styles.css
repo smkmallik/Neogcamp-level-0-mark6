@@ -11,7 +11,7 @@ body {
     margin: 0;
 }
 
-nav {
+header {
     background-color: var(--primary-color);
     text-align: center;
 }   
@@ -30,13 +30,13 @@ main {
 }
 
 textarea {
-    width: 90%;
+    width: 80%;
     height: 10vh;
     margin: 1rem;
     padding: 1rem;
     margin-top: 2rem;
     font-family: inherit;
-    font-size: large;
+    font-size: medium;
 }
 
 button {
@@ -44,7 +44,7 @@ button {
     border: none;
     margin: 1rem ;
     padding: 1rem 2rem;
-    font-size: large;
+    font-size: medium;
     font-family: inherit;
 }
 
@@ -52,6 +52,7 @@ button {
     border: 1px solid black;
     height: 10vh;
     margin: 1rem;
+    width: 80%;
     padding: 1rem;
 }
 
@@ -69,13 +70,15 @@ footer p {
     max-width: var(--width-break);
     margin: auto;
     padding-top: 1rem;
+    font-size: small
 }
 
 footer span{
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .end-credits {
     margin-top: 0.5rem;
     font-weight: bold;
+    font-size: small
 }
